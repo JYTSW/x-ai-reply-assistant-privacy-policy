@@ -46,14 +46,14 @@
           <p class="eyebrow">Privacy Policy</p>
           <h1>X AI 回复助手隐私政策</h1>
           <p class="lede">本政策说明 X AI 回复助手 Chrome 扩展在生成回复草稿时如何处理数据。</p>
-          <div class="dates"><span>生效日期：2026 年 7 月 13 日</span><span>最后更新：2026 年 7 月 14 日</span></div>
+          <div class="dates"><span>生效日期：2026 年 7 月 13 日</span><span>最后更新：2026 年 7 月 17 日</span></div>
         </div>
         <section class="summary">
-          <p><strong>一句话说明：</strong>本扩展仅在用户点击“AI 评论”后，读取用户当前选择的 X 页面上下文，并调用用户自己的 DeepSeek API 生成可复制的回复草稿。扩展不会自动发布回复，不运行开发者中转服务器，也不出售用户数据。</p>
+          <p><strong>一句话说明：</strong>用户保存 API Key 并明确同意数据处理后，进入 X 单条帖子页面会自动读取该帖上下文，并调用用户自己的 DeepSeek API 生成可引导、可复制的回复草稿。扩展不会自动发布回复，不运行开发者中转服务器，也不出售用户数据。</p>
         </section>
         <section>
           <h2>1. 扩展用途与处理时机</h2>
-          <p>X AI 回复助手的单一用途，是根据用户主动选择的 X 帖子及相关评论生成多种风格的回复草稿。扩展不会在后台持续收集页面内容；只有用户主动点击“AI 评论”时，才会为这一次生成操作读取必要上下文。</p>
+          <p>X AI 回复助手的单一用途，是根据当前 X 单条帖子及相关评论生成多种风格的回复草稿。扩展不会在后台持续收集浏览历史；在用户完成设置后，进入单条帖子页面会自动为这一次生成操作读取必要上下文。用户在右侧点击重新生成时会发起新的请求。</p>
         </section>
         <section>
           <h2>2. 处理的数据</h2>
@@ -62,13 +62,14 @@
             <li>用户主动选择分析的当前 X 帖子文本；</li>
             <li>用户正在回复的评论，以及页面上可见的相关评论；</li>
             <li>当前页面 URL 与页面中公开显示的作者名称或用户名；</li>
+            <li>用户在右侧输入的本次 AI 引导内容；</li>
             <li>用户自行提供的 DeepSeek API Key。</li>
           </ul>
           <p>扩展不会读取与当前回复任务无关的账号密码、私信或剪贴板内容。</p>
         </section>
         <section>
           <h2>3. 数据用途与 DeepSeek</h2>
-          <p>页面上下文仅用于生成用户请求的回复草稿。扩展通过 HTTPS 将必要上下文和 API 请求直接发送至 DeepSeek API；DeepSeek 是完成该功能所必需的第三方服务提供商。API Key 仅作为调用 DeepSeek API 的身份验证信息使用。</p>
+          <p>页面上下文和本次 AI 引导仅用于生成用户请求的回复草稿。扩展通过 HTTPS 将必要上下文和 API 请求直接发送至 DeepSeek API；DeepSeek 是完成该功能所必需的第三方服务提供商。API Key 仅作为调用 DeepSeek API 的身份验证信息使用。每次自动生成或重新生成都会消耗用户自己的 DeepSeek API 额度。</p>
           <p>DeepSeek 对收到数据的处理受其自身政策约束。请阅读 <a href="https://cdn.deepseek.com/policies/zh-CN/deepseek-privacy-policy.html" target="_blank" rel="noreferrer">DeepSeek 隐私政策</a>。</p>
         </section>
         <section>
@@ -81,7 +82,7 @@
         </section>
         <section>
           <h2>6. 数据保留与删除</h2>
-          <p>扩展自身不保留帖子上下文或生成结果。用户可以在扩展弹窗中点击“清除”，删除本地保存的 API Key 和同意状态；卸载扩展也会清除扩展的本地数据。DeepSeek 对 API 请求数据的保留由其隐私政策和用户的 DeepSeek 服务设置决定。</p>
+          <p>扩展自身不保留帖子上下文、本次 AI 引导或生成结果。用户可以在扩展弹窗中点击“清除”，删除本地保存的 API Key 和同意状态；卸载扩展也会清除扩展的本地数据。DeepSeek 对 API 请求数据的保留由其隐私政策和用户的 DeepSeek 服务设置决定。</p>
         </section>
         <section>
           <h2>7. 数据共享与有限使用</h2>
@@ -90,7 +91,7 @@
         </section>
         <section>
           <h2>8. 用户选择</h2>
-          <p>用户可以不提供 DeepSeek API Key、不点击“AI 评论”、清除本地数据或卸载扩展。未提供 API Key 时，扩展不会调用 DeepSeek 生成草稿。</p>
+          <p>用户可以不提供 DeepSeek API Key、不勾选自动数据处理同意、在扩展弹窗中清除本地设置或卸载扩展。未提供 API Key 或未同意新版数据说明时，扩展不会调用 DeepSeek 生成草稿。</p>
         </section>
         <section>
           <h2>9. 政策更新与联系</h2>
